@@ -1,1 +1,16 @@
-/*  your css code here. If applicable */
+.stoll{
+	background-color: lightgray;
+}
+#heading{
+	color: #3b99e0;
+}
+#summary {
+	color: gray;
+	padding-right: 20%;
+	padding-left: 20%;
+	padding-top: 10px;
+}
+.image{
+	width: 80px;
+	height: 100px;
+}
