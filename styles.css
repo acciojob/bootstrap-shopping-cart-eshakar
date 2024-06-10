@@ -1,16 +1,36 @@
-.stoll{
+.block-heading{
 	background-color: lightgray;
 }
-#heading{
+.block-heading > h2{
 	color: #3b99e0;
 }
-#summary {
+.block-heading > p{
 	color: gray;
 	padding-right: 20%;
 	padding-left: 20%;
 	padding-top: 10px;
 }
-.image{
+.img-fluid{
 	width: 80px;
 	height: 100px;
+}
+.product{
+	display: flex;
+	margin: 5px;
+	gap: 35px;
+}
+.summary{
+	background-color: #f7fbff;
+	text-align: center;
+	padding: 25px;
+	border-top: 1px solid #5ea4f3;
+}
+.subject{
+	display: flex;
+	gap: 50%;
+	text-align: center;
+	border-bottom: 1px solid lightgray;
+}
+.summary > h3{
+	padding-bottom: 25px;
 }
